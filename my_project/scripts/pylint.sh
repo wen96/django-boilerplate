@@ -1,0 +1,1 @@
+pylint . apps scripts settings
