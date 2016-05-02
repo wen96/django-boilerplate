@@ -17,6 +17,8 @@ with open('/etc/my_project/settings.json') as file_config:
         'PASSWORD': config['DB_PASSWORD']
     }
 
+    TIME_ZONE = config['TIME_ZONE']
+
     # https://docs.djangoproject.com/en/1.9/howto/static-files/
     STATIC_ROOT = config['STATIC_ROOT']
     ENVIRONMENT = config['ENVIRONMENT']
